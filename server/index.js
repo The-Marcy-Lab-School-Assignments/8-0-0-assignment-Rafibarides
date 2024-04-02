@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-  res.sendFile(__dirname + '/path/to/about.html');
+  res.sendFile(__dirname + '/about.html'); 
 });
 
 app.get('/api/data', (req, res) => {
